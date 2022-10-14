@@ -1,0 +1,47 @@
+body { 
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+
+  background-color: #6c25be;
+  height: 5vh;
+  
+}
+/* 
+.bannerContainer {
+
+} */
+
+.banner {
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Middle */
+
+article {
+  margin: 5vh 30vw 0 30vw;
+}
+
+.main {
+  display: grid;
+  gap: 5em;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* .eventsCard {
+  
+} */
+
+/* Footer */
